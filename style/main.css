@@ -88,8 +88,13 @@ ul{
 .menu{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	font-size: 20px;
+	
+}
+.menu_item{
+	width: 33%;
+	text-align: center;
 }
 .line{
 	font-family: monospace;
