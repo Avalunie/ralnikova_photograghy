@@ -343,6 +343,11 @@ ul{
 		margin-top: 40px;
 		margin-bottom: 5px;
 	}
+	.example_here img{
+		max-width: 300px;
+	/*	width: 100%;
+		height: auto;*/
+	}
 	.phone_t{
 		display: block;
 	}
@@ -373,10 +378,13 @@ ul{
 	 	font-size: 24px;
 	}
 	.slideshow-container {
-	  width: 100%;
-	  height: auto;
-	  position: relative;
-	  margin: auto;
+		width: 100%;
+		height: auto;
+		position: relative;
+		margin: auto;
+	}
+	.example_here_item{
+		max-width: 170px;
 	}
 
 @media only screen and (max-width: 290px) {
