@@ -69,6 +69,9 @@ ul{
 	/*font-family: monospace;*/
 	/*font-size: 18px;*/
 }
+#bottom{
+	margin-bottom: 40px;
+}
 .container{
 /*	display: flex;
 	flex-direction: column;
