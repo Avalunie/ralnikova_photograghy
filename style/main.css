@@ -253,9 +253,9 @@ ul{
 	left: -50px;
 }
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/*.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0);
-}
+}*/
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
