@@ -27,6 +27,7 @@ body{
 	/*font-family: Snell Roundhand;*/
 	/*font-family: "Times New Roman", Times, serif;*/
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino;
+	/*font-family: Monotype Corsiva;*/
 	font-style: italic;
 	/*font-family: serif;*/
 
@@ -40,6 +41,7 @@ body{
 h1{
 	font-size: 32px; /*Такой же размер по умолчанию*/
 	font-weight: lighter;
+	font-family: Monotype Corsiva;
 }
 h2{
 	font-size: 24px; 
@@ -344,12 +346,18 @@ ul{
 		flex-direction: column;
 		height: 100%;
 	}
-	.example_pic img{
+	/*.example_pic img{
 		max-width: 300px;
 		width: 100%;
 		height: auto;
 		margin-top: 40px;
 		margin-bottom: 5px;
+	}*/
+	.example_pic{
+		width: 25%
+	}
+	.example_pic img{
+		align-items: center;
 	}
 	.example_here img{
 		max-width: 300px;
