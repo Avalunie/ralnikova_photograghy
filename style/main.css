@@ -319,6 +319,7 @@ ul{
 	}
 	body{
 		font-size: 16px;
+		overflow: hidden;
 	}
 	h1{
 		font-size: 28px;
@@ -354,10 +355,13 @@ ul{
 		margin-bottom: 5px;
 	}*/
 	.example_pic{
-		width: 25%
+		width: 25%;
 	}
 	.example_pic img{
 		align-items: center;
+	}
+	.example_here{
+		width: 100%;
 	}
 	.example_here img{
 		max-width: 300px;
@@ -419,4 +423,10 @@ ul{
 	.prev, .next {
 		font-weight: lighter;
 	 	font-size: 14px;
+	}
+	.example_here img{
+		height: auto;
+	}
+	.prev, .next {
+		padding: 25px;
 	}
